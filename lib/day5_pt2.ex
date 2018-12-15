@@ -22,6 +22,6 @@ defmodule Day5Part2 do
   end
 
   defp polymer_min(val1, val2) do
-    Kernel.min(val1, val2)
+    min(val1, val2)
   end
 end
