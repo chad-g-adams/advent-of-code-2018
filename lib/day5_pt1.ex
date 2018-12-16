@@ -1,9 +1,10 @@
 defmodule Day5Part1 do
   @moduledoc """
-    For this solution, I found that converting each character to a String in order to do downcase() 
+    Day 5 Commentary: 
+    For this solution, I found that converting each character to a String for purpose of doing downcase() 
     was performance impacting (total 30 seconds to solve puzzle). So I switched to using assumption
-    that input was only ascii letters (and added a validation check to ensure this). 
-    Then I could compare upper/lower case by adding 32 to the value (solution runs 15x faster)
+    that input was only ascii letters (and added a validation check to ensure this assumption holds). 
+    Thus I could compare upper/lower case by adding 32 to the value. Solution runs 15x faster.
   """
 
   def find_remaining_polymer_units(input) do
