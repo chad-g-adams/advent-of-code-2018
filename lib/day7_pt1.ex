@@ -4,7 +4,10 @@ defmodule Day7Part1 do
     Day 7 Commentary:
       First part was OK, second part took a long time.
       First time my code worked for the test but didn't work for the full solution.
-      (Turned out I read the challenge wrong.. was using wrong number of workers)
+      (Turned out I read the challenge wrong.. was using wrong number of workers).
+
+      Passing a lot of parameters around. Might be easier to pass state around as a
+      single map structure than as individual parameters.
   """
 
   @doc """
