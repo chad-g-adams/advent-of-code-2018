@@ -1,5 +1,6 @@
 defmodule Day10Part1 do
   @moduledoc """
+    Day 10 Commentary:
     Things I learned today, you can do pattern matching in anonymous functions!
     Part 1 was solved in a straightforward, albeit not great performance way.
     Part 2 The non-performant solution was no longer reasonable. I tried a few
